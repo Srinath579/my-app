@@ -16,7 +16,7 @@ const ForgotPassword: FC<ForgotPasswordProps> = () => (
     <div className="d-flex justify-content-center">
       <MDBContainer className="text-dark bg-white rounded" style={{ "width": "370px", "top": "30%", "position": "fixed" }}>
         <div className="pt-3 pb-3">
-          <h1 className="text-dark">Login</h1>
+          <h1 className="text-dark">Reset Password</h1>
         </div>
         <form id="form" method="post">
           <div className="form-group">
