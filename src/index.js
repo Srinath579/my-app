@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Login from './components/Login/Login.tsx';
+import Login from './components/Login/Login.js';
 import Register from './components/Register/Register.tsx';
 import Forgot from './components/ForgotPassword/ForgotPassword.tsx';
 import { BrowserRouter, Routes, Route} from "react-router-dom";

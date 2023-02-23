@@ -10,7 +10,7 @@ interface RegisterProps {}
 const Register: FC<RegisterProps> = () => (
   <div>
     <div className="d-flex justify-content-center">
-      <img src={clogo} alt="Logo" style={{ "marginTop": "9%", "transform": "rotate(350deg)"}} />
+      <img src={clogo} alt="Logo" style={{ "top": "18%", "transform": "rotate(350deg)", "position": "fixed"}} />
     </div>
   <div className="d-flex justify-content-center">
       <MDBContainer className="text-dark bg-white rounded" style={{ "width": "370px", "top": "30%", "position": "fixed" }}>

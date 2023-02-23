@@ -9,7 +9,7 @@ interface ForgotPasswordProps {}
 const ForgotPassword: FC<ForgotPasswordProps> = () => (
   <div>
     <div className="d-flex justify-content-center">
-      <img src={clogo} alt="Logo" style={{ "marginTop": "9%", "transform": "rotate(350deg)" }} />
+      <img src={clogo} alt="Logo" style={{ "top": "18%", "transform": "rotate(350deg)", "position": "fixed" }} />
     </div>
     {/* <h6 className="text-white">by</h6>
     <h5 className="text-white">V Hashtag</h5> */}
