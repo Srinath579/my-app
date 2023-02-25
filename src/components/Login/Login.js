@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-// import styles from './Login.module.css';
+import './Login.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { MDBContainer, MDBInput } from 'mdb-react-ui-kit';
 import { NavLink } from "react-router-dom";
-import clogo from "./ChezelleLogo.png";
+// import clogo from "./ChezelleLogo.png";
+import Footer from '../Footer/Footer.js';
+// import Footer from '../Footer/Footer.js';
 
 function Login(){
   const [InputEmail1, setInputEmail1]=useState('')
@@ -30,14 +32,13 @@ function Login(){
   //   localStorage.setItem(JSON.stringify(item))
   // }; 
   return(
-    <div>
-      <div className="d-flex justify-content-center">
-        <img src={clogo} alt="Logo" style={{ "top": "18%", "transform": "rotate(350deg)", "position": "fixed" }} />
-      </div>
-      {/* <h6 className="text-white">by</h6>
-    <h5 className="text-white">V Hashtag</h5> */}
-      <div className="d-flex justify-content-center">
-        <MDBContainer className="text-dark bg-white rounded" style={{ "width": "370px", "top": "30%", "position": "fixed" }}>
+    <div className='Login'>
+      <header className="Login-header bg-secondary">
+      {/* <div className="d-flex justify-content-center">
+          <img src={clogo} alt="Logo" style={{"marginTop": "3%", "transform": "rotate(350deg)", "height": 70, maxWidth: "100%"}} />
+      </div> */}
+      <div className="d-flex justify-content-center mt-4 mb-3">
+        <MDBContainer className="text-dark bg-white rounded" style={{ "width": "370px", "marginTop": "0%"}}>
           <div className="pt-3 pb-3">
             <h1 className="text-dark">Login</h1>
           </div>
@@ -66,7 +67,7 @@ function Login(){
             <div className="d-grid gap-2 pb-3">
               <button type="submit" className="btn btn-primary mt-3">Login</button>
             </div>
-            <p className="text-center pb-3 h6">Don't have an Account? Register
+            <p className="text-center h6">Don't have an Account? Register
               <NavLink to="/register" id="registerlink" style={{ "background": "none", "border": "none", "color": "blue", "margin": "4px" }}>here</NavLink>
             </p>
             <p className="text-center pb-3 h6">Forgot Password?
@@ -75,6 +76,8 @@ function Login(){
           </form>
         </MDBContainer>
       </div>
+      </header>
+      <Footer/>
     </div>
   );
 }
