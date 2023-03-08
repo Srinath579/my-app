@@ -25,10 +25,10 @@ function Footer()
                 About Us
               </h6>
               <p>
-                <NavLink to="#!" className="text-reset">ABOUT CHEZELLE</NavLink>
+                <NavLink to="#!" className="text-reset" style={{"textDecoration": 'none'}}>About Chezelle</NavLink>
               </p>
               <p>
-                <NavLink to="#!" className="text-reset">CONTACT US</NavLink>
+                <NavLink to="#!" className="text-reset" style={{"textDecoration": 'none'}}>Contact Us</NavLink>
               </p>
             </div>
 
@@ -37,13 +37,13 @@ function Footer()
                 Our Policy
               </h6>
               <p>
-                <NavLink to="#!" className="text-reset">TERMS AND CONDITION</NavLink>
+                <NavLink to="#!" className="text-reset" style={{"textDecoration": 'none'}}>Terms And Condition</NavLink>
               </p>
               <p>
-                <NavLink to="#!" className="text-reset">PRIVACY POLICY</NavLink>
+                <NavLink to="#!" className="text-reset" style={{"textDecoration": 'none'}}>Privacy Policy</NavLink>
               </p>
               <p>
-                <NavLink to="#!" className="text-reset">RETURN POLICY</NavLink>
+                <NavLink to="#!" className="text-reset" style={{"textDecoration": 'none'}}>Return Policy</NavLink>
               </p>
             </div>
 
@@ -52,21 +52,21 @@ function Footer()
                 Your
               </h6>
               <p>
-                <NavLink to="#!" className="text-reset">MY ACCOUNT</NavLink>
+                <NavLink to="#!" className="text-reset" style={{"textDecoration": 'none'}}>My Account</NavLink>
               </p>
               <p>
-                <NavLink to="#!" className="text-reset">TRACK YOUR</NavLink>
+                <NavLink to="#!" className="text-reset" style={{"textDecoration": 'none'}}>Track Your</NavLink>
               </p>
               <p>
-                <NavLink to="#!" className="text-reset">WISHLIST</NavLink>
+                <NavLink to="#!" className="text-reset" style={{"textDecoration": 'none'}}>Wishlist</NavLink>
               </p>
             </div>
 
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <p class="foot_heading  mar0">ONLINE  RELATED QUERIES</p>
-                <p class="email_id"><NavLink>chezelle@vhastag.online</NavLink></p>
-                <p class="duration">Mon to Fri 10:00 AM - 6:30 PM</p>
-                <p class="foot_heading mar0 more_info"><span class="inform">FOR BUSINESS ENQUIRIES | </span><NavLink class="contact-info">Contact Us</NavLink></p>
+                <p className="foot_heading  mar0">ONLINE  RELATED QUERIES</p>
+                <p className="email_id"><NavLink>chezelle@vhastag.online</NavLink></p>
+                <p className="duration">Mon to Fri 10:00 AM - 6:30 PM</p>
+                <p className="foot_heading mar0 more_info"><span className="inform">For Business Enquiries | </span><NavLink className="contact-info">Contact Us</NavLink></p>
             </div>
           </div>
         </div>

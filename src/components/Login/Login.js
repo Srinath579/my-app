@@ -5,7 +5,8 @@ import { MDBContainer, MDBInput } from 'mdb-react-ui-kit';
 import { NavLink } from "react-router-dom";
 // import clogo from "./ChezelleLogo.png";
 import Footer from '../Footer/Footer.js';
-// import Footer from '../Footer/Footer.js';
+import Navbar from '../Navbar/Navbar.js';
+
 
 function Login(){
   const [InputEmail1, setInputEmail1]=useState('')
@@ -33,11 +34,12 @@ function Login(){
   // }; 
   return(
     <div className='Login'>
-      <header className="Login-header bg-secondary">
+      <Navbar></Navbar>
+      <header className="Login-header bg-light">
       {/* <div className="d-flex justify-content-center">
           <img src={clogo} alt="Logo" style={{"marginTop": "3%", "transform": "rotate(350deg)", "height": 70, maxWidth: "100%"}} />
       </div> */}
-      <div className="d-flex justify-content-center mt-4 mb-3">
+        <div className="d-flex justify-content-center mt-4 mb-3 shadow p-3 mb-5 bg-white rounded">
         <MDBContainer className="text-dark bg-white rounded" style={{ "width": "370px", "marginTop": "0%"}}>
           <div className="pt-3 pb-3">
             <h1 className="text-dark">Login</h1>

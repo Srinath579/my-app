@@ -2,6 +2,7 @@ import './App.css';
 import Footer from './components/Footer/Footer.js';
 import { useEffect, useState } from "react";
 import ReactLoading from "react-loading";
+import Navbar from './components/Navbar/Navbar.js';
 
 function App() {
   // Set loading state to true initially
@@ -28,6 +29,7 @@ function App() {
   if (loading) {
     return (
       <div className="App">
+        <Navbar></Navbar>
         <header className="App-header text-dark">
           <ReactLoading type="spin" color="#0000FF"
             height={100} width={50} />
@@ -40,6 +42,7 @@ function App() {
   else {
     return (
     <div className="App">
+        <Navbar></Navbar>
       <header className="App-header text-dark">
         Data Need to get displayed here.......
       </header>
